@@ -2,7 +2,7 @@
     box-sizing: border-box;
 } */
 :root {
-    --morado: #B432F7;
+    --morado: #A536DF;
 }
 body {
     margin: 0px;
@@ -33,7 +33,7 @@ body {
     justify-content: center;
     flex-direction: column;
     padding: 0px 30px;
-    margin-top: 8px;
+    margin-top: 20px;
     margin-bottom: 8px;
     min-height: calc(100vh - 200px);
 }
@@ -94,7 +94,7 @@ body {
 }
 .button{
     height: 60px;
-    background-color: rgba(180, 50, 247);
+    background-color: rgba(165, 54, 223);
     border-radius: 20px;
     border:none;
     color: white;

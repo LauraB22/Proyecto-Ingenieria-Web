@@ -1,3 +1,6 @@
+:root {
+    --morado: #A536DF;
+}
 body {
     margin: 0px;
     background-color:  white;
@@ -5,7 +8,7 @@ body {
     box-sizing: border-box;
 }
 .header {
-    background-color: #222D81;
+    background-color: var(--morado);
     width: 100%;
     height: 15vh;
     display: flex;
@@ -31,10 +34,10 @@ body {
 }
 .login__container{
     background-color: rgba(255 , 255, 255, 0.1);
-    border: 0.5px solid #222D81;
+    border: 0.5px solid var(--morado);
     border-radius: 30px;
     box-shadow: rgba(255 , 255, 255, 0.3);
-    color:#222D81;
+    color:var(--morado);
     padding: 60px 68px 40px;
     min-height: 400px;
     width: 250px;
@@ -55,13 +58,13 @@ body {
     font-size: 14px;
 }
 .login__container--remember-me{
-    color: #222D81;
+    color: var(--morado);
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
 }
 .login__container--remember-me a{
-   color: #222D81;
+   color: var(--morado);
    font-size: 14px;
    text-decoration: none;
    display: flex;
@@ -74,12 +77,12 @@ body {
  }
 .login__container--register a{
     font-size: 16px;
-    color: #222D81;
+    color: var(--morado);
     font-weight: bold;
     text-decoration: none;
 }
 .login__container--register a:hover{
-    text-decoration: underline;
+    text-decoration: none;
 }
 .input{
     height: 60px;
@@ -88,7 +91,7 @@ body {
     border-left: 0px;
     border-top: 0px;
     border-right: 0px;
-    border-bottom: 2px solid #222D81 ;
+    border-bottom: 2px solid var(--morado) ;
     font-size: 16px;
     font-family: 'Muli', sans-serif;
     margin-bottom: 20px;
@@ -100,7 +103,7 @@ body {
 }
 .button{
     height: 60px;
-    background-color: rgba(34, 45, 129);
+    background-color: rgba(165, 54, 223);
     border-radius: 20px;
     border:none;
     color: white;
@@ -112,11 +115,11 @@ body {
     margin: 10px 0px;
 }
 .login__container--inicio{
-    color: #222D81;
+    color: var(--morado);
     margin-top: 10px;
 }
 .login__container--inicio a{
-   color: #222D81;
+   color: var(--morado);
    font-size: 16px;
    text-decoration: none;
 }
@@ -127,7 +130,7 @@ body {
     display: flex;
     align-items: center;
     height: 10vh;
-    background-color: #E3E5EF;
+    background-color: #F6E5FE;
     bottom: 0;
 }
 .footer a{
