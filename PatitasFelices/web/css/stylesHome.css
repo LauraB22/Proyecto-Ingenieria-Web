@@ -1,0 +1,75 @@
+:root {
+    --morado: #A536DF;
+}
+body {
+    margin: 0px;
+    background-color:  white;
+    font-family: 'Muli', sans-serif;
+    box-sizing: border-box;
+}
+.header {
+    background-color: var(--morado);
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: rgba(255 , 255, 255, 0.3);
+}
+
+.header__img{
+    width: 300px;
+    margin-left: 10px;
+}
+.divContainer{
+    width: 650px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    background-color: white;
+    border-radius: 8px;
+    border-left: 2px solid var(--morado);
+    border-top: 2px solid var(--morado);
+    border-right: 2px solid var(--morado);
+    border-bottom: 2px solid var(--morado);
+}
+.inputBuscar{
+    width: 500px;
+    height: 40px;
+    background-color: white;
+    font-size: 16px;
+    font-family: 'Muli', sans-serif;
+    padding: 0px 14px;
+    outline: none;
+    border: none;
+}
+
+.search-icon{
+    background-image: url('./Imagenes/lupa.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+.divTitulos{
+    width: 350px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.divTitulos a{
+    font-size: 16px;
+    font-family: 'Muli', sans-serif;
+    margin-right: 12px;
+    padding: 0px 10px;
+    color: white;
+    text-decoration: none;
+}
