@@ -1,5 +1,5 @@
 let parrafo = document.getElementById("parrafo");
-const API = 'https://prueba-apli.herokuapp.com/';
+const API = 'https://patitas-felices.herokuapp.com/';
 
 function getApi (){
     let requestOptions = {
@@ -12,7 +12,7 @@ function getApi (){
         }
     };
 
-    fetch("https://prueba-apli.herokuapp.com/", requestOptions)
+    fetch("https://patitas-felices.herokuapp.com/", requestOptions)
     .then(response => response.text())
     .then(result => {
          console.log(result)
