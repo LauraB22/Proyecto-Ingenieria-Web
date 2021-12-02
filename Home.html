@@ -1,33 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./Css/stylesHome.css">
-    <title>Patitas Felices</title>
-</head>
-<body>
-    <header class="header">
-        <a href="./Home.html"><img tabindex="0" class="header__img" src="./Css/Imagenes/Loguito.png" alt="Logo"></a>
-        <div class="divContainer">
-            <input class="inputBuscar" type="text" placeholder="Buscar">
-            <a class="search-icon"></a>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./Css/stylesHome.css">
+        <title>Patitas Felices</title>
+    </head>
+    <body>
+        <header class="header">
+            <a href="./Home.html"><img tabindex="0" class="header__img" src="./Css/Imagenes/Loguito.png" alt="Logo"></a>
+            <div class="divContainer">
+                <input class="inputBuscar" type="text" placeholder="Buscar">
+                <a class="search-icon"></a>
+            </div>
+            <div class="divTitulos">
+                <a href="/">Agendar cita</a>
+                <a href="/">Pedidos</a>
+                <a href="./html/inicioSesion.html">Iniciar Sesión</a>
+            </div>
+        </header>
+        <!-- <div>
+            <p id="parrafo"> Osito </p>
         </div>
-        <div class="divTitulos">
-            <a href="/">Agendar cita</a>
-            <a href="/">Pedidos</a>
-            <a href="./html/inicioSesion.html">Iniciar Sesión</a>
+        <div>
+            <button type="button" onclick="getApi()"> Es un oso </button>
+        </div> -->
+        <div class="anuncios">
+            <p>imagenes y avisos parroquiales</p>
         </div>
-    </header>
-    <div>
-        <p id="parrafo"> Osito </p>
-    </div>
-    <div>
-        <button type="button" onclick="getApi()"> Es un oso </button>
-    </div>
-    
-    <script src="./index.js"></script>
-</body>
+
+        <div >
+            <div class="tienda">
+                <p>Visita nuestra tienda</p>
+                <div class="tienda-categoria">
+                    <p>Alimentos</p>
+                    <p><img src="./Css/Imagenes/alimento.jpg"></p>
+                </div>
+                <div class="tienda-categoria">
+                    <p>Juguetes</p>
+                    <img src="./Css/Imagenes/juguetes.jpg">
+                </div>
+                <div class="tienda-categoria">
+                    <p>cuidados</p>
+                    <img src="./Css/Imagenes/cuidados.jpg">
+                </div>
+            </div>
+            <div class="sucursales">
+                puedes acudir a cualquiera de nuestras sucursales
+            </div>
+            <div class="horarios">
+                Horarios de atención
+                <p>9 AM - 9 PM de lunes a viernes </p>
+                <p>9 AM - 3 PM de sabados y domingos </p>
+            </div>
+            <div class="somos">
+                quienes somos
+                <p>
+                    somos una empresa que ama a todo tipo de mascotas, comprometidos a darles el mejor trato posible 
+                    junto con los mejores cuidados para tu compañero de aventuras
+                </p>
+            </div>
+            <div class="adopcion">
+                adopta una mascota
+                <p>
+                    se parte de esta gran familia, ven con nosotros y adopta una mascota,tenemos de todo tipo
+                    ,eguramente encontraras a tu mascota ideal.
+                </p>
+            </div>
+        </div>
+
+        <footer>
+            <div>
+                <ul>
+                    <item>contactanos</item>
+                    <item>01800-patitasfelices</item>
+                    <item>patitasfelices@gmail.com</item>
+                </ul>
+            </div>
+
+            <div>
+                <ul>
+                    <item>Politica de privacidad</item>
+                    <item>patitas felices S.A. de C.V</item>
+                    <item> todos los derechos reservados</item>
+                </ul>
+            </div>
+
+            <div>
+                <ul>
+                    <item>metodos de pago</item>
+                    <item>tarjetas de crédito y débito</item>
+                    <item>paypal</item>
+                </ul>
+            </div>
+        </footer>
+        
+        <script src="./index.js"></script>
+    </body>
 </html>

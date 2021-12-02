@@ -1,11 +1,14 @@
 :root {
     --morado: #A536DF;
+    --verde: #319E66;
 }
 body {
     margin: 0px;
     background-color:  white;
     font-family: 'Muli', sans-serif;
     box-sizing: border-box;
+    width: 100%;
+  
 }
 .header {
     background-color: var(--morado);
@@ -22,8 +25,10 @@ body {
     margin-left: 10px;
 }
 .divContainer{
-    width: 650px;
-    height: 50px;
+    /* width: 650px;
+    height: 50px; */
+    width: auto;
+    height: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -70,6 +75,40 @@ body {
     font-family: 'Muli', sans-serif;
     margin-right: 12px;
     padding: 0px 10px;
+    color: white;
+    text-decoration: none;
+}
+.anuncios{
+    width: 100vw;
+    min-height: 400px;
+}
+.tienda{
+    width: 100vw;
+    min-height: 300px;
+    max-width: 100vw;
+    background-color: #319E66;
+    
+}
+.tienda p{
+    text-align: center;
+    font-size: 20px;
+    font-style: oblique;
+}
+.tienda-categoria{
+    display: inline-flex;
+    width: 30vw;
+    background-color: #A536DF;
+    margin-bottom: 0;
+    min-height: 100px;
+    
+}
+footer{
+    font-size: 16px;
+    font-family: 'Muli', sans-serif;
+    background-color: rgb(29, 28, 28);
+    margin-right: 12px;
+    margin-top: 30px;
+    padding: 15 px 10px;
     color: white;
     text-decoration: none;
 }
