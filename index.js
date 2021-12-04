@@ -21,3 +21,8 @@ function getApi (){
     .catch(error => console.log('error', error));
 
 }
+
+
+ var indexedDB = window.indexedDB || window.mozIndexedDB || window.webkitIndexedDB || window.msIndexedDB;
+
+dataBase = indexedDB.open("patitas", "8.0.22");
