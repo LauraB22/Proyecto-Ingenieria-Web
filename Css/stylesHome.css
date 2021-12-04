@@ -1,14 +1,14 @@
 :root {
     --morado: #A536DF;
     --verde: #36DFA5;
+    --naranja: #F56E40;
 }
 body {
     margin: 0px;
-    background-color:  white;
+    background-color:  #4d58f5;
     font-family: 'Muli', sans-serif;
     box-sizing: border-box;
     width: 100%;
-  
 }
 .header {
     background-color: var(--morado);
@@ -74,33 +74,90 @@ body {
     font-size: 16px;
     font-family: 'Muli', sans-serif;
     margin-right: 12px;
-    padding: 0px 10px;
+    padding: 10px 10px;
     color: white;
     text-decoration: none;
+}
+.divTitulos a:hover{
+    background-color: #8f05da;
+
 }
 .anuncios{
     width: 100vw;
     min-height: 400px;
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    padding: 0;
+    
 }
-.tienda{
+.anuncios img{
+    /* width: 260px;
+    height: 400px; */
+    width: 20vw;
+    height: 400px;
+    
+}
+
+.tiendita{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    background-color:  var(--verde);
+}
+/* .tienda{
     width: 100vw;
     min-height: 300px;
     max-width: 100vw;
     background-color: var(--verde);
-    
-}
+}  */
 .tienda p{
     text-align: center;
-    font-size: 20px;
+    font-size: 50px;
     font-style: oblique;
+    align-content: center;
 }
 .tienda-categoria{
     display: inline-flex;
     width: 30vw;
-    background-color: #C781EB;
-    margin-bottom: 0;
+    justify-content: center;
+    font-size: 40px;
+    font-style: oblique;
+    font-weight: 800;
+    font-family:bitter;
+    margin: 0;
+    /*background-color: #C781EB;*/
+    padding: 0px;
+    border: 0;
+    align-items: center;
+    align-self: center;
+    align-content: center;
     min-height: 100px;
     
+}
+.tienda-categoria-item{
+    display: block;
+    
+}
+.tienda-categoria-item img{
+    width: 300px;
+    height: 200px;
+    border: 15px;
+    border-radius: 5px;
+    
+}
+
+.horarios{
+    font-size: 60px;
+    display: inline-flex;
+    background-color: var(--naranja);
+}
+.horarios ul{
+    margin-top: 100px;
+}
+.somos{
+    font-size: 60px;
 }
 footer{
     font-size: 16px;
