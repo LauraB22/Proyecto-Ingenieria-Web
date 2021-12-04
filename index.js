@@ -1,5 +1,5 @@
 let parrafo = document.getElementById("parrafo");
-const API = 'https://patitas-felices.herokuapp.com/';
+const API = 'https://patitas-felices.herokuapp.com/datos';
 
 function getApi (){
     let requestOptions = {
@@ -12,17 +12,14 @@ function getApi (){
         }
     };
 
-    fetch("https://patitas-felices.herokuapp.com/", requestOptions)
-    .then(response => response.text())
+    fetch(API, requestOptions)
+    .then(response => response.json())
     .then(result => {
          console.log(result)
          parrafo.innerText = result;
+         console.log(result.indexOf(3));
         })
     .catch(error => console.log('error', error));
 
 }
 
-
- var indexedDB = window.indexedDB || window.mozIndexedDB || window.webkitIndexedDB || window.msIndexedDB;
-
-dataBase = indexedDB.open("patitas", "8.0.22");
