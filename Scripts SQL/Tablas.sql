@@ -153,5 +153,9 @@ CREATE TABLE `patitas`.`usuarioticket` (
 drop table usuariomascota;
 drop table usuarioticket;
 drop table usuario;
+drop table productosucursal;
+drop table ticketproducto;
+drop table producto;
+
 
 

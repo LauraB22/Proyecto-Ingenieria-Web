@@ -1,23 +1,32 @@
 let parrafo = document.getElementById("parrafo");
-const API = 'https://patitas-felices.herokuapp.com/datos';
+const API = 'http://localhost:3001/empleados';
 
 function getApi (){
+    const data = {
+        "email": "laacarguilarceja@gmail.com",
+        "password": "luis123"
+    }
+
     let requestOptions = {
-        method: 'GET',
+        method: 'POST',
         redirect: 'follow',
         // mode: 'no-cors',
         headers: {
             // 'Access-Control-Allow-Origin': '*',
-            'Content-Type': 'text/html'
-        }
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(data) // body data type must match "Content-Type" header
     };
 
     fetch(API, requestOptions)
     .then(response => response.json())
     .then(result => {
-         console.log(result)
-         parrafo.innerText = result;
-         console.log(result.indexOf(3));
+         if(result.length != 0){
+            console.log(result)
+         }else{
+             console.log('Sin coincidencias');
+         }
+        //  parrafo.innerText = result[1].Fecha_Cita;
         })
     .catch(error => console.log('error', error));
 

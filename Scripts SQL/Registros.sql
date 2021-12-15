@@ -104,114 +104,92 @@ INSERT INTO ticket(Fecha, Cantidad) VALUES
 ("2021-03-09 23:00:00", '1');
 
 INSERT INTO producto(Nombre_Producto, precio, Descripcion, Categoria, Especie, Imagen_Produc)VALUES
-('Alimento para perros marca Poder Caning', '300.00', 'Alimento para perro  de 25 kg para adultos de razas grandes', 'Alimentos', 'Perros', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Perros\Alimento\Comida-para-perro-Poder-Canino-01.jpg'),
-('Alimento para perros marca Ganador', '250.00', 'Alimento para perro de  20 kg para cachorros de razas pequeñas', 'Alimentos', 'Perros', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Perros\Alimento\Ganador.jpg'),
-('Lata de aliemnto marca Pedigree', '30.00', 'Lata de trozos de res y queso 125g', 'Alimentos', 'Perros', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Perros\Alimento\Pedigree-1.jpg'),
-('Lata de aliemnto marca Dog Chow', '25.00', 'Lata de trozos de cordero de  100g para adultos', 'Alimentos', 'Perros', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Perros\Alimento\dogchow.jpg'),
-('Lata de aliemnto marca Dog Chow', '25.00', 'Lata de trozos de pavo 100g para adultos', 'Alimentos', 'Perros', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Perros\Alimento\DOG-CHOW-ADULTO.jpg'),
-('Alimento para perros marca Nupec', '400.00', 'Alimento para perro  de 8 kg para cachorros', 'Alimentos', 'Perros', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Perros\Alimento\Nupec_Cachorro.jpg'),
-('Cama para perro', 638.42, 'Cama para perro redonda color crema', 'Cuidados', 'Perros', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Perros\Alimento\Cama redonda.jpg'),
-('Cama rosada para perro', 349.3, 'Cama rosa para perro con peluche', 'Cuidados', 'Perros', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Perros\Alimento\cama rosa.jpg'),
-('Cama rectangular azul', 627.86, 'Cama rectangular color azul para perro grande', 'Cuidados', 'Perros', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Perros\Alimento\cama azul.jpg'),
-('Shampoo para perro antipulgas', 21.59, 'Shampoo de perro antipulgas marca ppt con olor a chicle', 'Cuidados', 'Perros', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Perros\Alimento\shampoo1.jpg'),
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 24.46, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 166.29, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 249.26, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 213.79, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 693.13, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 27.77, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 487.06, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 323.08, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 345.45, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 506.6, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 96.31, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 272.76, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 656.16, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 156.74, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 606.03, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 693.23, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 319.01, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 235.91, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 283.16, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 314.22, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 166.63, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 646.26, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 686.72, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 373.46, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 87.44, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 295.23, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 49.13, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 348.15, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 553.19, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 464.84, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 76.52, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 157.01, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 619.02, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 99.19, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 18.34, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 671.59, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 127.11, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 508.22, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 617.93, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 401.91, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 473.73, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 686.91, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 146.87, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 73.25, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 661.32, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 395.72, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 556.57, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 25.63, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 8.37, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 402.33, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 206.89, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 543.71, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 242.55, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 18.73, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 43.8, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 194.22, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 50.77, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 286.41, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 347.35, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 73.66, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 323.38, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 638.19, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 333.78, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 352.98, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 634.1, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 29.05, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 19.55, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 304.92, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 76.64, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 107.42, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 28.19, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 547.53, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 402.0, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 128.36, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 265.74, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 250.82, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 293.53, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 580.37, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 597.18, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 544.34, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 279.29, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 85.03, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 400.81, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 640.56, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 62.85, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 46.74, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 395.51, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 528.79, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 111.79, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 608.12, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 663.16, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 69.36, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 260.83, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 299.78, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 136.93, null, null, null, null);
-insert into producto_sucursal (Nombre_Producto, precio, Descripcion, categoria, especie, Imagen) values (null, 666.57, null, null, null, null);
-
-
+('Alimento para perros marca Poder Caning', '600.00', 'Alimento para perro  de 25 kg para adultos de razas grandes', 'Alimentos', 'Perros', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Perros\Alimento\Comida-para-perro-Poder-Canino-01.jpg'),
+('Alimento para perros marca Ganador', '650.00', 'Alimento para perro de  20 kg para cachorros de razas pequeñas', 'Alimentos', 'Perros', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Perros\Alimento\Ganador.jpg'),
+('Lata de alimento marca Pedigree', '30.00', 'Lata de trozos de res y queso 125g', 'Alimentos', 'Perros', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Perros\Alimento\Pedigree-1.jpg'),
+('Lata de alimento marca Dog Chow', '25.00', 'Lata de trozos de cordero de  100g para adultos', 'Alimentos', 'Perros', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Perros\Alimento\dogchow.jpg'),
+('Lata de alimento marca Dog Chow', '25.00', 'Lata de trozos de pavo 100g para adultos', 'Alimentos', 'Perros', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Perros\Alimento\DOG-CHOW-ADULTO.jpg'),
+('Alimento para perros marca Nupec', '690.00', 'Alimento para perro  de 8 kg para cachorros', 'Alimentos', 'Perros', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Perros\Alimento\Nupec_Cachorro.jpg'),
+('Cama para perro', 238.42, 'Cama para perro redonda color crema', 'Cuidados', 'Perros', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Perros\Cuidados\Cama redonda.jpg'),
+('Cama rosada para perro', 249.3, 'Cama rosa para perro con peluche', 'Cuidados', 'Perros', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Perros\Cuidadoa\cama rosa.jpg'),
+('Cama rectangular azul', 327.86, 'Cama rectangular color azul para perro grande', 'Cuidados', 'Perros', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Perros\Cuidados\cama azul.jpg'),
+('Shampoo para perro antipulgas', 61.59, 'Shampoo de perro antipulgas marca ppt con olor a chicle', 'Cuidados', 'Perros', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Perros\Cuidados\shampoo1.jpg'),
+('Cepillo para perro', 64.46, 'Cepillo para perros removedor de pelo y suciedad', 'Cuidados', 'Perros', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Perros\Cuidados\cepillo1.jpg'),
+('Collares para Perro', 166.63, 'Set de collar para perro con correa color azul', 'Cuidados', 'Perros', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Perros\Cuidados\set-collar-correa.jpeg'),
+('Collar para Perro', 66.63, 'Collar para perro color rosal', 'Cuidados', 'Perros', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Perros\Cuidados\collar2.jpeg'),
+('Shampoo para perros antimicotico', 66.29, 'Shampoo para perros marca Hartz anntipulgas', 'Cuidados', 'Perros', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Perros\Cuidados\shampoo2.jpg'),
+('Cepillo para perros Trixie', 89.26, 'Cepillo para perros de cabello rizado y largo', 'Cuidados', 'Perros', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Perros\Cuidados\cepillo2.jpg'),
+('Paquete de cepillos de dientes', 213.79, 'Dos cepillos de dientes de marca Boshel cerdas suaves', 'Cuidados', 'Perros', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Perros\Cuidados\cepillo_dientes.jpg'),
+('Cepillo de dientes Virbac', 93.13, 'Cepillo de dientes de doble punta morado', 'Cuidados', 'Perros', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Perros\Cuidados\cepillo_dientes2.jpg'),
+('Pasta y cepillo marca Pets', 127.77, 'Paquete de pasta y cepillo de dientes para perros', 'Cuidados', 'Perros', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Perros\Cuidados\pasta_cepillo.jpg'),
+('Juguete chillon para perro', 47.06, 'Juguete chillon de halloween', 'Juguetes', 'Perros', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Perros\Juguetes\Juguete-Halloween.jpg'),
+('Modedera para perro', 33.08, 'Mordedera para perro con pelota', 'Juguetes', 'Perros', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Perros\Juguetes\mordedera.jpeg'),
+('Jueguete chillon para perro ', 45.45, 'Juguete para perro en forma de pierna de pollo', 'Juguetes', 'Perros', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Perros\Juguetes\juguete_pollo.jpg'),
+('Sueter para perros talla mediana', 106.6, 'Sueter para perro de copos de nieve azul', 'Cuidados', 'Perros', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Perros\Cuidados\sueter1.jpg'),
+('Vestido para perros', 96.31, 'Vestido con moño rojo', 'Cuidados', 'Perros', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Perros\Cuidados\sueter2.jpg'),
+('Pet Craft Supply Juego de Juguetes de Peluche', 272.76, 'Paquete de juguetes de peluche para perro en forma de taco y aguacate', 'Juguetes', 'Perros', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Perros\Juguetes\aguacate.jpg'),
+('ZippyPaws-Juguete de Peluche NomNomz', 256.16, 'ZippyPaws - Juguete de Peluche para Perro con chirriador de Peluche-Taco', 'Juguetes', 'Perros', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Perros\Juguetes\taco.jpg'),
+('ZippyPaws Juguetes interactivos para perros', 156.74, 'Juguetes para perros chirriantes forma de maceta de miel', 'Juguetes', 'Perros', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Perros\Juguetes\abejas.jpg'),
+('Alimento Minino para gato', 606.03, 'Alimento Minino para gato sabor pollo/pescado en bolsa de 15kg', 'Alimentos', 'Gatos', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Gatos\Alimento\alimento1.jpg'),
+('Alimento Minino Plus para gato', 693.23, 'Alimento Minino Plus para gato adulto sabor carne/pollo/pavo en bolsa de 10kg', 'Alimentos', 'Gatos', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Gatos\Alimento\alimento2.jpg'),
+('Royal Canin Croquetas para Gatos, Spayed', 619.01, 'Royal Canin Croquetas para Gatos, Spayed Neutered Appetite Control, 2.72 kg', 'Alimentos', 'Gatos', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Gatos\Alimento\alimento3.jpg'),
+('Comida húmeda para gatos', 35.91, 'Comida húmeda para gatos de atún y caballa lata de 3 onzas', 'Alimentos', 'Gatos', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Gatos\Alimento\lata1.jpg'),
+('Whiskas comida para gatos', 33.16, 'Alimento húmedo formulado para la nutrición de gatitos en crecimiento', 'Alimentos', 'Gatos', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Gatos\Alimento\lata2.jpg'),
+('Felix Alimento Húmedo', 34.22, 'Felix Alimento Húmedo Sabor Filetes de Salmón en Salsa lata de 156g', 'Alimentos', 'Gatos', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Gatos\Alimento\lata3.jpg'),
+('Collar para gatito con cascabel', 246.2, '2 unidades, hebilla de seguridad,diseño clásico a cuadros, ajustable de 15 a 20 cm', 'Cuidados', 'Gatos', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Gatos\Cuidados\collar_gato1.jpg'),
+('Collares de gato de Navidad a cuadros', 286.72, 'Paquete de 2 collares de gato de Navidad a cuadros, ajustables', 'Cuidados', 'Gatos', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Gatos\Cuidados\collar_gato2.jpg'),
+('Poste rascador para gatos', 673.46, 'Poste rascador para gatos y gatitos, diseño de palmera de coco', 'Cuidados', 'Gatos', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Gatos\Cuidados\cama1.jpg'),
+('Caja de arena para gatos Dymoll', 237.44, 'Caja de arena plegable con entrada superior cubierta', 'Cuidados', 'Gatos', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Gatos\Cuidados\caja arena.jpg'),
+('Shampoo Natural para Pelo Largo Gato', 195.23, 'Espree Shampoo Natural para Pelo Largo para Gato, 354 ml', 'Cuidados', 'Gatos', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Gatos\Cuidados\shampooG.jpg'),
+('Colonia con Aroma a Talco para Perro y Gato', 149.13, 'Tropiclean Colonia con Aroma a Talco para Perro y Gato', 'Cuidados', 'Gatos', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Gatos\Cuidados\coloniaG.jpg'),
+('Varita Flexible con Pluma para Gato', 148.15, 'Leaps & Bounds Thrill and Chase Varita Flexible con Pluma, Naranja', 'Cuidados', 'Gatos', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Gatos\Juguetes\pluma1.jpg'),
+('Araña Saltarina para Gato', 93.19, 'Leaps & Bounds Thrill and Chase Araña Saltarina, Azul', 'Juguetes', 'Gatos', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Gatos\Juguetes\araña.jpg'),
+('Juguete para Gato Fancy Pets', 64.84, 'Paquete de dos ratoncitos de tela para gato', 'Juguetes', 'Gatos', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Gatos\Juguetes\ratones.jpg'),
+('Bolitas de tela para gato', 56.52, 'Bolitas de tela para gato con rayas', 'Juguetes', 'Gatos', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Gatos\Juguetes\bolitas.jpg'),
+('Mapache Kicker para Gato', 157.01, 'Leaps & Bounds Mapache Kicker para Gato, Gris', 'Juguetes', 'Gatos', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Gatos\Juguetes\mapache.jpg'),
+('Pelota de Terciopelo', 19.02, 'Leaps & Bounds Pelota de Terciopelo', 'Juguetes', 'Gatos', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Gatos\Juguetes\pelotas.jpg'),
+('Mazuri para Aves Grandes', 99.19, 'Alimento de Mantenimiento 650 Grs', 'Alimentos', 'Aves', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Aves\Aliment\alimentoAve.jpg'),
+('Mezcla de Semillas', 108.34, 'Mezcla de Semillas p/Loritos y Ninfas 500g Red Kite', 'Alimentos', 'Aves', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Aves\Alimento\alimentoCanario.jpg'),
+('Mezcla p/Aves Silvestres', 121.59, 'Mezcla p/Aves Silvestres y del Hogar 900g Red Kite', 'Alimentos', 'Aves', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Aves\Alimento\alimentoSilv.jpg'),
+('Mezcla de Semillas p/Loros y Cacatuas', 127.11, 'Mezcla de Semillas p/Loros y Cacatuas 500g Red Kite', 'Alimentos', 'Aves', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Aves\Alimento\alimentoloro.jpg'),
+('Jaula para Pájaros Jaula de Aves Canarios', 608.22, 'Yaheetech Jaula para Pájaros Jaula de Aves Canarios', 'Cuidados', 'Aves', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Aves\Cuidados\jaulaCanario.jpg'),
+('Jaula para Pájaros grandes', 617.93, 'Yaheetech Jaula para Pájaros Jaula con Comedero 40 x 40 x 58 cm', 'Cuidados', 'Aves', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Aves\Cuidados\jaulaLoro.jpg'),
+('Bañera para Ave con Espejo', 50.91, 'You & Me Bañera para Ave con Espejo', 'Cuidados', 'Aves', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Aves\Cuidados\bañera.jpg'),
+('Bañera redonda para ave', 43.73, 'Lixit Bañera de Fácil Instalación, 12 cm Diámetro', 'Cuidados', 'Aves', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Aves\Cuidados\bañeraRedonda.jpg'),
+('Bebedero Tipo Silo', 106.91, 'JW Pet Company Bebedero Tipo Silo, Grande 24.13 cm Largo', 'Cuidados', 'Aves', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Aves\Cuidados\bebedero.jpg'),
+('Comedero con Gancho para Ave', 46.87, 'You & Me Comedero con Gancho para Ave', 'Cuidados', 'Aves', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Aves\Cuidados\comedero.jpg'),
+('Puente Colgante para Mascotas', 73.25, 'Naroote Puente Colgante para Mascotas, Suministro para Jugar', 'Juguetes', 'Aves', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Aves\Juguetes\puente.jpg'),
+('Columpio para aves', 61.32, 'Columpio para aves de madera juguete madera loro', 'Juguetes', 'Aves', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Aves\Juguetes\columpio.jpg'),
+('Juguete de Palo de pie para pájaros', 295.72, 'Juguete de Percha de Jaula de pájaros Estable', 'Juguetes', 'Aves', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Aves\Juguetes\juguetePie.jpg'),
+('Cadena de Pelotas con Campana', 56.57, 'JW Pet Company Cadena de Pelotas con Campana', 'Juguetes', 'Aves', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Aves\Juguetes\jugueteCampana.jpg'),
+('Alimento en Hojuelas para Peces', 125.63, 'Tetra Min Alimento en Hojuelas para Peces Tropicales, 100 g', 'Alimentos', 'Peces', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Peces\Alimento\tropicalPeces.jpg'),
+('Alimento para pez dorado', 108.37, 'Alimento para pez dorado', 'Alimentos', 'Peces', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Peces\Alimento\alimentoPezDor.jpg'),
+('Pruebas para Acuario', 342.33, 'Tetra Easy Strips Pruebas 6 en 1 para Acuario, 25 Reactivos', 'Cuidados', 'Peces', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Peces\Cuidados\Acuario.jpg'),
+('Acondicionador para Acuario', 106.89, 'Tetra Aqua Safe Acondicionador para Acuario, 250 ml', 'Cuidados', 'Peces', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Peces\Cuidados\acondicionador.jpg'),
+('Plantas Glofish', 153.71, 'Tetra Plantas Glofish Surtido Paq', 'Cuidados', 'Peces', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Peces\Cuidados\plantitas.jpg'),
+('Alimento para reptiles acuaticos', 42.55, 'Alimento para reptiles acuaticos Wardley', 'Alimentos', 'Reptiles', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Reptiles\Alimento\tortugasAlim.jpg'),
+('Suplemento de calcio', 108.73, 'Repashy superalimentos Calcio Plus 85g reptil Suplemento de calcio', 'Alimentos', 'Reptiles', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Reptiles\Alimento\AlimentoSerp.jpg'),
+('Alimento Para Pequeños Reptiles', 143.8, 'Mazuri Alimento Para Pequeños Reptiles 450g', 'Alimentos', 'Reptiles', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Reptiles\Alimento\alimPeque.jpg'),
+('Lámpara Calefactora para Terrario', 1194.22, 'Zoo Med Powersun UV Lámpara Calefactora para Terrario, 100 Watts', 'Cuidados', 'Reptiles', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Reptiles\Cuidados\lamparita.jpg'),
+('Foco Tropical Uvb', 1050.77, 'Zoo Med Paquete de Foco Tropical Uvb 5.0 & Lámpara Calefactora, 60 Watts', 'Cuidados', 'Reptiles', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Reptiles\Cuidados\foco.jpg'),
+('Bombilla Luz de Luna', 286.41, 'Zoo Med Moonlite Bombilla Luz de Luna para Reptiles, 60 Watts', 'Cuidados', 'Reptiles', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Reptiles\Cuidados\uv.jpg'),
+('Puente Flotante para Tortuga', 347.35, 'Zoo Med Puente Flotante para Tortuga Acuática, Grande', 'Juguetes', 'Reptiles', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Reptiles\Juguetes\puente.jpg'),
+('Escondite Reversible', 173.66, 'Escondite Reversible, 20.3 cmx16.5 cmx 8.8 cm ', 'Juguetes', 'Reptiles', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Reptiles\Juguetes\escondite.jpg'),
+('Cueva Escondite', 73.38, 'Yolcame Cueva Escondite Mediana Color Natural para Reptiles', 'Juguetes', 'Reptiles', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Reptiles\Juguetes\cueva.jpg'),
+('Bebedero para Reptil', 98.19, 'Zoo Med Repti Rock Bebedero para Reptil, X-Chico', 'Juguetes', 'Reptiles', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Reptiles\Juguetes\bebedero.jpg'),
+('Mezcla de Heno Pasto', 333.78, 'Oxbow Mezcla de Heno Pasto Timothy y Pasto de Orchard para Roedores ', 'Alimentos', 'Mamiferos', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Mamiferos\Alimento\pasto.jpg'),
+('Heno Timothy', 352.98, 'Oxbow Heno Timothy, 2.5 kg', 'Alimentos', 'Mamiferos', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Mamiferos\Alimento\heno.jpg'),
+('Snack de Malta', 94.1, 'Cunipic Alpha Pro Snack de Malta, 50 g', 'Alimentos', 'Mamiferos', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Mamiferos\Alimento\snack.jpg'),
+('Premio para Roedores', 129.05, 'Versele Laga Complete Crock Premio para Roedores Sabor a Hierbas, 50 g', 'Alimentos', 'Mamiferos', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Mamiferos\Alimento\premio.jpg'),
+('Premios Sabor Fresa para Roedores', 119.55, 'Oxbow Simple Rewards Premios Sabor Fresa para Roedores, 14 g', 'Alimentos', 'Mamiferos', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Mamiferos\Alimento\premio2.jpg'),
+('Suplemento Digestivo para Roedores', 204.92, 'Oxbow Natural Science Suplemento Digestivo para Roedores, 120 g', 'Alimentos', 'Mamiferos', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Mamiferos\Alimento\suplemento.jpg'),
+('Bebedero Estampado', 107.42, 'You & Me Bebedero Estampado de Puntos para Roedor, 254 ml', 'Cuidados', 'Mamiferos', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Mamiferos\Cuidados\bebederoRoe.jpg'),
+('Shampoo en Seco', 128.19, 'Kaytee Quick & Clean Shampoo en Seco, 235 ml', 'Cuidados', 'Mamiferos', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Mamiferos\Cuidados\shampooseco.jpg'),
+('Removedor de Olores', 247.53, 'Marshall Líquido Removedor de Olores de Hurones y Pequeñas Mascotas, 237 ml', 'Cuidados', 'Mamiferos', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Mamiferos\Cuidados\removedor.jpg'),
+('Arnés y Correa Elástica', 202.0, 'Kaytee Arnés y Correa Elástica, Mediano', 'Juguetes', 'Mamiferos', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Mamiferos\Juguetes\correa.jpg'),
+('Rueda Silent Spiner', 376.64, 'Kaytee Rueda Silent Spiner, 27 cm Diámetro', 'Juguetes', 'Mamiferos', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Mamiferos\Juguetes\ruedita.jpg'),
+('Túnel Colgante', 228.36, 'Kaytee Túnel Colgante, 13.97 cm Largo x 17.78 cm Ancho', 'Juguetes', 'Mamiferos', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Mamiferos\Juguetes\tunel.jpg'),
+('Casa para Baño', 265.74, 'Kaytee Casa para Baño, 21.59 cm x 21.59 cm x 21.59 cm', 'Juguetes', 'Mamiferos', 'C:\Users\laura\OneDrive\Documentos\Proyecto Ingenieria\Imagenes de productos\Mamiferos\Juguetes\casita.jpg');
 
 INSERT INTO usuario(Nombre_Usuario, Apellido1_Usuario, Apellido2_Usuario, Correo_Usuario, Password_Usuario, Calle_Usuario, Num_ext_Usuario, Num_int_Usuario, 
 Delegacion_Usuario, Ciudad_Usuario, CP_Usuario, Metodo_Pago, Num_Tarjeta, Telefono_Usuario)VALUES
